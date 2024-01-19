@@ -1,0 +1,167 @@
+
+@import url('https://fonts.cdnfonts.com/css/dejavu-sans');
+@import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");            
+.header-wrapper {
+width: 100%;
+width: 1440px;
+margin: 0 auto;
+background-color: #D9D9D9;
+}
+.header-div {
+height: 200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 50px 130px;
+}
+.header-div img {
+max-width:  178px;
+height: 100px;
+}
+
+.header-ul {
+width: 715px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-left: 278px;
+}
+.header-ul > li > a {
+font-family: "ALK Life", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+color: #000;
+text-align: left;
+}
+.section-1,.section-2,.section-3 {
+margin: 0 auto;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.background-image {
+width: 1180px;
+height: 287;
+margin-top: 160px;
+}
+.section-2 {
+display: flex;
+flex-direction: column;
+}
+.titel-div-1{
+width: 533px;
+height: 100px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+margin: 160px 777px 40px 130px;
+}
+.titel-div-1 h3 {
+font-family: 'DejaVu Sans', sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 51px;
+text-align: left;
+padding-left: 40px;
+color:  #717276;
+
+}
+.red-div {
+width: 100px;
+height: 100px;
+background-color: #A62B28;
+position: relative;
+}
+
+.red-img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.image-div-1 {
+width: 1180px;
+height: 716px;
+display: flex;
+justify-content: space-around;
+align-items:flex-start;
+}
+.image-div-1 > div > img {
+width: 380px;
+
+}
+.image-div-1 > div > h4 {
+font-family: 'DejaVu Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+color: #717276;
+}
+.image-div-1 > div > p {
+font-family: "ALK Life", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #000;
+}
+.image-div-1 > div > span {
+font-family: 'DejaVu Sans', sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 39px;
+text-align: left;
+color: #000;
+}
+.section-3 {
+ display: flex;
+flex-direction: column;
+
+}
+.image-div-2 {
+width: 1180px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-bottom: 160px;
+}
+.footer-bg {
+width: 100%;
+background-color: #D9D9D9;
+width: 1440px;
+margin: 0 auto;
+}
+.footer-main {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 71px  130px;
+
+}
+.footer-div {
+width: 174px;
+display: flex;
+flex-direction: column;
+
+}
+.footer-div-a {
+font-family: "ALK Life", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+color: #000;
+text-align: left;
+padding-bottom: 8px;
+text-transform: uppercase;
+}
+.footer-bg-2{
+width: 183px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
